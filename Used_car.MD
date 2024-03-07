@@ -6,5 +6,6 @@
 | model     | VARCHAR(25) | NOT NULL, DEFAULT("anonymous")     |       |
 | company   | VARCHAR(20) | NOT NULL, DEFAULT("anonymous")     |       |
 | KM        | INT         | NULL, DEFAULT(0)                   |       |
-| plate     | CHAR(7)     | NOT NULL, DEFAULT("undefined")     |       |
+| plate     | CHAR(7)     | NOT NULL, DEFAULT("not assigned")  |       |
 | condition | TEXT        | NULL                               |       |
+| price     | DECIMAL     | NOT NULL                           |       |
